@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+
+  <script src="main.js" defer></script>
+
+</head>
+
+<body>
+
+  <!-- Sign-up form start -->
+
+  <div class="main">
+    <div class="card">
+      <div class="main-content">
+
+        <div class="bigImg">
+          <picture>
+            <source media="(min-width: 70rem)" srcset="assets/images/illustration-sign-up-desktop.svg">
+            <source media="(max-width: 70rem)" srcset="assets/images/illustration-sign-up-mobile.svg">
+            <img src="assets/images/illustration-sign-up-desktop.svg" alt="Illustration of a sign-up form">
+          </picture>
+        </div>
+
+        <div class="grid-content">
+          <div class="text-content">
+            <div class="title"> Stay updated!</div>
+
+            <div class="subheading">Join 60,000+ product managers receiving monthly updates on:</div>
+
+            <div class="description">
+
+              <ul class="list">
+                <li>
+                  Product discovery and building what matters
+                </li>
+                <li>Measuring to ensure updates are a success</li>
+                <li>And much more!</li>
+              </ul>
+
+            </div>
+
+          </div>
+
+
+          <div class="form">
+            <form class="form-control" novalidate>
+              <div class="input-email">
+                <div class="no-error">
+                  <div class=little-flex>
+                    <div class="little">Email address</div>
+                    <div class="error-message">Valid email required</div>
+                  </div>
+                  <textarea id="input" class="user-input" name="email" rows="1" cols="34"
+                    placeholder="email@company.com"></textarea>
+                </div>
+              </div>
+
+
+
+              <button class="big-button subscribe-button" type="submit">Subscribe
+                to monthly newsletter</button>
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="success">
+        <div class="success-content">
+
+          <div class="large-icon"><img src="assets/images/icon-success.svg" alt=""></div>
+
+          <div class="success-title">Thanks for subscribing!</div>
+          <div class="success-description">A confirmation email has been sent to <b
+              class="bold-email">ash@loremcompany.com.</b>
+            Please open it and click the button inside to confirm your subscription.</div>
+
+          <div class="big-button dismiss">Dismiss message</div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+</body>
+
+</html>
